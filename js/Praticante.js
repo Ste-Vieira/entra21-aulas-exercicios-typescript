@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Praticante = void 0;
-const Perfil_js_1 = require("./Perfil.js");
-class Praticante extends Perfil_js_1.Perfil {
+import { Perfil } from "./Perfil.js";
+export class Praticante extends Perfil {
     constructor(name, lastName, birtDate, genre, email, password, graduation) {
         super(name, lastName, birtDate, genre, email, password, graduation);
     }
@@ -13,4 +10,3 @@ class Praticante extends Perfil_js_1.Perfil {
         return `Ainda não está implementado`;
     }
 }
-exports.Praticante = Praticante;

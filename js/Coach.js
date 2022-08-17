@@ -1,10 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Coach = void 0;
-const Perfil_js_1 = require("./Perfil.js");
-class Coach extends Perfil_js_1.Perfil {
+import { Perfil } from "./Perfil.js";
+export class Coach extends Perfil {
     apresentar() {
-        return ``;
+        return `Meu nome é ${this.name} ${this.lastName} e sou professor(a) de ${this.graduation}`;
     }
 }
-exports.Coach = Coach;

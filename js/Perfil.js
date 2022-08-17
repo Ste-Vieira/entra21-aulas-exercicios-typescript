@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Perfil = void 0;
-class Perfil {
+export class Perfil {
     constructor(name, lastName, birthDate, genre, email, password, graduation) {
         this.name = name;
         this.lastName = lastName;
@@ -12,4 +9,3 @@ class Perfil {
         this.graduation = graduation;
     }
 }
-exports.Perfil = Perfil;
